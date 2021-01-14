@@ -14,11 +14,11 @@ function StudentResources() {
 
     const loadUsers = async () => {
         if (userData.user.batch) {
-            let result = await axios.get(`http://localhost:5000/files/${userData.user.batch}`);
+            let result = await axios.get(`https://testing-tution.herokuapp.com/files/${userData.user.batch}`);
             setUser(result.data.reverse());
         }
         else {
-            let result = await axios.get(`http://localhost:5000/files/${userData.user.user.batch}`);
+            let result = await axios.get(`https://testing-tution.herokuapp.com/files/${userData.user.user.batch}`);
             setUser(result.data.reverse());
         }
         // setUser(result.data.reverse());

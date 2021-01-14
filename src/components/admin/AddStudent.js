@@ -20,7 +20,7 @@ const AddStudent = () => {
 
   const onSubmit = async e => {
     e.preventDefault();
-    await axios.post("http://localhost:5000/admin/registerStudent", user);
+    await axios.post("https://testing-tution.herokuapp.com/admin/registerStudent", user);
     history.push("/admin");
   };
   return (

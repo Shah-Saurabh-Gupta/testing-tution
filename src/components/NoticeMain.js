@@ -11,7 +11,7 @@ function NoticeMain() {
     useEffect(() => {
         (async () => {
             if (noticeId) {
-                await axios.get(`http://localhost:5000/notice/${noticeId}`).then((res) => {
+                await axios.get(`https://testing-tution.herokuapp.com/notice/${noticeId}`).then((res) => {
                     setContent(res.data);
                 });
             }

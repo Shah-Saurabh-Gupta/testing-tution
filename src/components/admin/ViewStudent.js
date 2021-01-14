@@ -15,7 +15,7 @@ const ViewStudent = () => {
     },[]);
     const { id } = useParams();
     const loadUser = async () => {
-        const res = await axios.get(`http://localhost:5000/admin/${id}`);
+        const res = await axios.get(`https://testing-tution.herokuapp.com/admin/${id}`);
         setUser(res.data);
     };
       
