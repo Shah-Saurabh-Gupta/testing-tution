@@ -1,0 +1,24 @@
+.adminresources{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgreen;
+}
+.uploadform{
+    flex: 0.30;
+    border: 1px solid lightpink;
+    margin:4px 0;
+    width: 100%;
+    padding: 5px;
+}
+.uploadform > form > input:nth-child(1),
+.uploadform > form > input:nth-child(2),
+.uploadform > form > input:nth-child(3){
+    margin:4px 10px;
+}
+.getfiles{
+    flex: 0.70;
+    border: 1px solid lightpink;
+    width: 100%;
+}

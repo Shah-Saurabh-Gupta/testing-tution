@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    background-color: rgb(25,25,25);
+    margin-top: 10px;
+    height:10vh;
+    width: 100%;
+    border-radius: 10px;
+    margin-left:6px;
+    margin-right: 6px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-self:center;
+    padding-left: 20px;
+}
+.nav > .link{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    margin: 0 2px;
+    padding: 0 10px;
+    height: 10vh;
+    width: 12vw;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.nav > .link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+}
+.nav > .link > .authLink{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+}
+.nav > .link:hover{
+    background: linear-gradient(222deg, red, orange);
+    box-shadow: 0 0 10px red,
+                0 0 20px red,
+                0 0 40px red,
+                0 0 80px red;
+}

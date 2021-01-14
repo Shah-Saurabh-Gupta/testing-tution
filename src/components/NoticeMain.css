@@ -1,0 +1,36 @@
+.noticemain{
+    margin: 10px;
+    height: 100%;
+    width: 98%;
+    /* border: 1px solid cornflowerblue; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgb(25,25,25);
+}
+.noticemain__heading{
+    flex: 0.10;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+/* .noticemain__heading:hover{
+    background: linear-gradient(222deg,red,orange);
+    box-shadow: 0 0 10px red,
+                0 0 20px red,
+                0 0 40px red;
+} */
+.noticemain__heading > h3{
+    padding: 0 10px;
+}
+.noticemain__content{
+    flex: 0.90;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 0 10px;
+   }
+/* .noticemain__content:hover{
+    background: linear-gradient(222deg,red,orange);
+    box-shadow: 0 0 10px red,
+                0 0 20px red;
+} */

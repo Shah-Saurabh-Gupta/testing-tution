@@ -1,0 +1,29 @@
+.adminpanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+}
+.adminpanel__students{
+    flex:0.40;
+    border:1px solid green;
+    margin-top: 5px;
+    width: 100%;
+    /* height: 50vh; */
+}
+.adminpanel__notices{
+    flex:0.30;
+    border:1px solid green;
+    margin-top: 5px;
+    width: 100%;
+    /* height: 30vh; */
+}
+.adminpanel__resources{
+    flex:0.30;
+    border:1px solid green;
+    margin-top: 5px;
+    width: 100%;
+    /* height: 50vh; */
+}

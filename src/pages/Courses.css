@@ -1,0 +1,450 @@
+.course{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid greenyellow; */
+    height: 100%;
+    width: 100%;
+}
+.course__left{
+    flex: 0.30;
+    /* border: 1px solid red; */
+    margin-right: 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.course__lefttop{
+    flex:0.20;
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.course__lefttop__1{
+   flex: 0.50;
+   margin-right: 3px;
+   /* border: 1px solid blue; */
+   border-radius: 10px;
+}
+.card1{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+.card1:hover{
+    transform: rotateY(180deg);
+}
+.card1__front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background:rgb(50,50,50);
+}
+.card1__back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: linear-gradient(222deg,#000428 , #004e92);
+    transform: rotateY(180deg);
+}
+.course__lefttop__2{
+    flex: 0.50;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+}
+.card2{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.card2:hover{
+    transform: rotateY(180deg);
+}
+.card2__front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: rgb(25,25,25);
+}
+.card2__back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: linear-gradient(222deg,#000428 , #004e92);
+    transform: rotateY(180deg);
+}
+
+.course__leftmiddle{
+    flex:0.60;
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    margin-bottom: 3px;
+    background: linear-gradient(222deg,green,rgb(45, 216, 45));
+}
+.course__leftbottom{
+    flex:0.20;
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.course__leftbottom__1{
+    flex: 0.50;
+    margin-right: 3px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+}
+.card4{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.card4:hover{
+    transform: rotateY(180deg);
+}
+.card4__front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background:  rgb(25,25,25);
+}
+.card4__back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: linear-gradient(222deg,#000428 , #004e92);
+    transform: rotateY(180deg);
+}
+ .course__leftbottom__2{
+     flex: 0.50;
+     /* border: 1px solid blue; */
+     border-radius: 10px;
+}
+.card5{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+.card5:hover{
+    transform: rotateY(180deg);
+}
+.card5__front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background:  rgb(50,50,50);
+}
+.card5__back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background:linear-gradient(222deg,#000428 , #004e92);
+    transform: rotateY(180deg);
+}
+.course__right{
+    flex: 0.70;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.course__righttop{
+    flex:0.40;
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    margin-bottom: 3px;
+    background: linear-gradient(222deg,green,rgb(45, 216, 45));
+}
+.course__rightmiddle{
+    flex:0.30;
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.course__rightmiddle__1{
+    flex: 0.33;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    margin-right: 3px;
+}
+.card7{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+.card7:hover{
+    transform: rotateY(180deg);
+}
+.card7__front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background:  rgb(25,25,25);
+}
+.card7__back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: linear-gradient(222deg,#000428 , #004e92);
+    transform: rotateY(180deg);
+}
+ .course__rightmiddle__2{
+    flex: 0.33;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    margin-right: 3px;
+}
+.card8{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.card8:hover{
+    transform: rotateY(180deg);
+}
+.card8__front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background:  rgb(50,50,50);
+}
+.card8__back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: linear-gradient(222deg,#000428 , #004e92);
+    transform: rotateY(180deg);
+}
+ .course__rightmiddle__3{
+    flex: 0.34;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+}
+.card9{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+.card9:hover{
+    transform: rotateY(180deg);
+}
+.card9__front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background:  rgb(25,25,25);
+}
+.card9__back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: linear-gradient(222deg,#000428 , #004e92);
+    transform: rotateY(180deg);
+}
+.course__rightbottom{
+    flex:0.30;
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.course__rightbottom__1{
+    flex: 0.50;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    margin-right: 3px;
+    background: linear-gradient(222deg,rgb(45, 216, 45),green);
+}
+.course__rightbottom__2{
+    flex: 0.50;
+    /* border: 1px solidblue; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.course__rightbottom__21{
+    flex:0.50;
+    border-radius: 10px;
+    /* border: 1px solid green; */
+    margin-right: 3px;
+}
+.card12{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+.card12:hover{
+    transform: rotateY(180deg);
+}
+.card12__front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background:  rgb(50,50,50);
+}
+.card12__back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: linear-gradient(222deg,#000428 , #004e92);
+    transform: rotateY(180deg);
+}
+.course__rightbottom__22{
+    flex:0.50;
+    border-radius: 10px;
+    /* border: 1px solid green; */
+}
+.card13{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.card13:hover{
+    transform: rotateY(180deg);
+}
+.card13__front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: rgb(25,25,25);
+}
+.card13__back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: linear-gradient(222deg,#000428 , #004e92);
+    transform: rotateY(180deg);
+}
+.card1__front,
+.card2__front,
+.card4__front,
+.card5__front,
+.card7__front,
+.card8__front,
+.card9__front,
+.card13__front,
+.card12__front{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.frontclass{
+    /* border: 1px solid red; */
+     /* background: #000428; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: larger;  
+}
+.card1__back,
+.card2__back,
+.card4__back,
+.card5__back,
+.card7__back,
+.card8__back,
+.card9__back,
+.card13__back,
+.card12__back{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.backclass{
+    /* border: 1px solid red; */
+     /* background: #000428; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: larger;  
+    font-style: italic;
+}
+.coursebanner{
+  /* border: 1px solid red; */
+     /* background: #000428; */
+     width: 100%;
+     height: 30%;
+     display: flex;
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+     text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: larger;  
+    font-style: italic;   
+}
+.coursecontent{
+    /* border: 1px solid red; */
+    /* background: #000428; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: larger;  
+    font-style: italic;
+}

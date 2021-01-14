@@ -1,0 +1,21 @@
+.noticesidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0.1vw;
+    margin:2px 0px;
+    border-radius: 10px;
+    background-color: rgb(25,25,25);
+    color: white;
+    /* border: 1px solid yellow; */
+    cursor:pointer;
+}
+.noticesidebar:hover{
+    background: linear-gradient(222deg,red,orange);
+    box-shadow: 0 0 10px red,
+                0 0 20px red,
+                0 0 40px red;
+}
+a{
+    text-decoration: none;
+}

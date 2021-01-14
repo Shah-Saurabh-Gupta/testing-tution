@@ -1,0 +1,19 @@
+.studentpanel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px solid slateblue;
+}
+.studentpanel__students{
+   flex:0.08;
+   margin-bottom: 10px;
+   border: 1px solid seagreen;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+.studentpanel__resources__notes{
+    flex: 0.92;
+    border: 1px solid red;
+}

@@ -1,0 +1,21 @@
+.login{
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh 35vw;
+    height: 70vh;
+    width: 30vw;
+    background:linear-gradient(222deg,black,rgb(5, 5, 54));
+    border-radius: 10px;
+}
+.login > h3{
+    align-items: center;
+    justify-content: center;
+}
+.login__form{
+    border: 1px solid red;
+    margin: 2%;
+    padding: 2%;
+    height: 40vh;
+}
