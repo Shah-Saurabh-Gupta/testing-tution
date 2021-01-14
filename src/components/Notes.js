@@ -12,7 +12,7 @@ function Notes() {
     }, []);
 
     const loadUsers = async () => {
-        const result = await axios.get("https://testing-tution.herokuapp.com/files/Free");
+        const result = await axios.get("https://tution-website.herokuapp.com/files/Free");
         setUser(result.data.reverse());
     };
 

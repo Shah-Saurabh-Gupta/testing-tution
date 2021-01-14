@@ -19,11 +19,11 @@ function AdminResources() {
     }, []);
 
     const loadUsers = async () => {
-        const result = await axios.get("https://testing-tution.herokuapp.com/files/");
+        const result = await axios.get("https://tution-website.herokuapp.com/files/");
         setUser(result.data.reverse());
     };
     const deleteUser = async id => {
-        await axios.delete(`https://testing-tution.herokuapp.com/files/${id}`);
+        await axios.delete(`https://tution-website.herokuapp.com/files/${id}`);
         loadUsers();
     };
 
@@ -43,7 +43,7 @@ function AdminResources() {
         formData.append("file", fileData);
 
 
-        await axios.post("https://testing-tution.herokuapp.com/files", formData,
+        await axios.post("https://tution-website.herokuapp.com/files", formData,
             {
                 onUploadProgress: ProgressEvent => {
                     setUploadPercentage(parseInt(Math.round((ProgressEvent.loaded * 100) /

@@ -15,7 +15,7 @@ export default function Login() {
     try {
       const loginUser = { email, password };
       const loginRes = await Axios.post(
-        "https://testing-tution.herokuapp.com/user/login",
+        "https://tution-website.herokuapp.com/user/login",
         loginUser
       );
       setUserData({

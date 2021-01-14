@@ -38,14 +38,14 @@ function App() {
         role = "";
       }
       const tokenRes = await axios.post(
-        "https://testing-tution.herokuapp.com/user/tokenIsValid",
+        "https://tution-website.herokuapp.com/user/tokenIsValid",
         null,
         { headers: { "x-auth-token": token } }
       );
 
 
       if (tokenRes.data) {
-        const userRes = await axios.get("https://testing-tution.herokuapp.com/user/", {
+        const userRes = await axios.get("https://tution-website.herokuapp.com/user/", {
           headers: { "x-auth-token": token },
         });
         //console.log(userRes.data.user.role);

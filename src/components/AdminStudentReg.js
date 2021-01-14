@@ -12,11 +12,11 @@ function AdminStudentReg() {
     }, []);
 
     const loadUsers = async () => {
-        const result = await axios.get("https://testing-tution.herokuapp.com/admin/");
+        const result = await axios.get("https://tution-website.herokuapp.com/admin/");
         setUser(result.data.reverse());
     };
     const deleteUser = async id => {
-        await axios.delete(`https://testing-tution.herokuapp.com/admin/${id}`);
+        await axios.delete(`https://tution-website.herokuapp.com/admin/${id}`);
         loadUsers();
     };
     console.log(users);

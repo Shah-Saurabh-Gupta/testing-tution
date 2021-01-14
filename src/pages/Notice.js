@@ -9,7 +9,7 @@ function Notice() {
     const [rooms, setRooms] = useState([]);
     useEffect(() => {
         (async () => {
-            await axios.get("https://testing-tution.herokuapp.com/notice/").then((res) => {
+            await axios.get("https://tution-website.herokuapp.com/notice/").then((res) => {
                 setRooms(res.data.reverse());
                 // console.log(res.data);
             });
